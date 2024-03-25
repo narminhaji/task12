@@ -1,0 +1,345 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+.navbar1 {
+  display: flex;  
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar1 ul{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding-right: 50px;  
+}
+.navbar1 ul a {
+  color: white;
+}
+.navbars1{
+  background-color: black;
+  padding: 10px 10px;
+}
+.navbar1 p{
+  padding-left: 50px;
+  color: white;
+}
+
+.drop{
+  display: none;
+}
+.drop ul  {
+  display: block;
+}
+.drop ul li{
+   padding: 13px;
+   padding-left: 30px;
+   padding-bottom: 6px;
+}
+.navbar1 ul li:hover .drop{
+  display: block;
+  position: absolute;
+  background-color: black;
+  width: 237px;
+  height: 120px;
+  margin-left: -145px;
+}
+
+.nav{
+  display: flex;
+  justify-content: space-between;
+}
+.icon{
+  padding-top: 20px; 
+  padding-left: 60px;
+}
+.nav ul{
+  display: flex;
+  gap: 50px;
+  padding-top: 20px;
+}
+.nav ul a{
+  color: black;
+}
+.nav ul a:hover{
+  color: rgb(215, 208, 208);
+}
+.dropdown{
+  display: none;
+}
+.dropdown ul {
+   display: block;
+}
+.dropdown ul li a{
+  color: rgb(103, 103, 104);
+}
+.nav ul li:hover .dropdown {
+  color: black;
+  background-color: white;
+  display: block;
+  position: absolute;
+  width: 260px;
+  height: 300px;
+  padding: 10px 30px;
+  line-height: 35px;
+}
+.dropdown button{
+  background-color: rgb(234, 120, 207);
+  border-radius: 10px;
+  border: none;
+  width: 30px;
+  height: 15px;
+}
+.dropdown button a{
+  font-size: 10px;
+}
+
+.icon1{
+  
+  display: flex;
+  gap: 20px;
+  padding-top: 20px;
+  padding-right: 60px;
+}
+
+.main{
+margin: 30px 0;
+background-image: url("https://undsgn.com/uncode/wp-content/uploads/2022/07/fabio-alves-HNaC2lbnK_0-unsplash.jpg");
+background-size:cover;
+height: 380px;
+}
+.mnn h4{
+  padding: 100px ;
+  padding-bottom: 20px;
+}
+.mnn h2{
+padding-left: 100px ;
+width: 370px;
+}
+.mn a{
+  display: inline-block;
+  border: 1px solid white;
+  width: 170px;
+  height: 50px;
+  color:white;
+  border-radius: 50px;
+  text-align: center;
+  padding-top: 15px;
+  margin:  50px 100px ;
+}
+.mn a:hover{
+  background-color: white;
+  color: black;
+  transition: 1s;
+}
+.hdd ul li{
+  float: right;
+}
+.abc{
+  margin:40px;
+  padding-top: 50px;
+}
+.kateqori p{
+  padding-bottom: 20px;
+}
+.kateqori i{
+  padding-left: 149px;
+}
+.reng p{
+  padding: 20px 0;
+}
+.reng i{
+  padding-left: 179px;
+}
+.brend p{
+  padding: 20px 0;
+}
+.brend i{
+  padding-left: 177px;
+}
+.price p{
+  padding: 20px 0;
+}
+.price i{
+  padding-left: 182px;
+}
+.ratings p{
+  padding: 20px 0;
+}
+.ratings i{
+  padding-left: 165px;
+}
+.status p{
+  padding: 20px 0;
+}
+.status i{
+  padding-left: 173px;
+}
+.material    p{
+  padding: 20px 0;
+}
+.material i{
+  padding-left: 152px;
+}
+.hd1{
+  width: 25%;
+}
+.kart {
+  position: relative;
+}
+
+.ikon{
+  width: 30px;
+  height: 30px;
+  border: 1px solid rgb(252, 252, 252);
+  border-radius: 50%;
+  position: absolute;
+  top: 70px;
+  left: 160px;
+  background-color: rgb(252, 252, 252);
+}
+.ikon i{
+  position: absolute;
+  font-size: 15px;
+  top: 7px;
+  left: 8px;
+}
+.ikon1{
+  width: 30px;
+  height: 30px;
+  border: 1px solid rgb(252, 252, 252);
+  border-radius: 50%;
+  position: absolute;
+  top: 105px;
+  left: 160px;
+  background-color: rgb(252, 252, 252);
+}
+.ikon1 i{
+  position: absolute;
+  font-size: 20px;
+  top: 5px;
+  left: 5px;
+}
+.hd{
+  display: flex;
+  justify-content: space-between;
+} 
+.cards{
+  position: relative;
+  margin-top: 30px;
+  margin-right: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+  z-index: -1;
+}
+.card {
+  display: flex;
+  flex-wrap: wrap;
+}
+.kart img{
+  width: 200px;
+  margin-top: 60px;
+}
+.kart p{
+  text-align: center;
+  line-height: 30px;
+}
+.good{
+  margin-top: 200px;
+  background-color: rgb(26, 25, 25);
+  z-index: -1;
+}
+.son{
+  width: 40%;
+  padding: 60px 40px;
+}
+.son h4{
+  padding-top: 50px;
+  padding-bottom: 40px;
+  color: white;
+}
+.son p{
+  width: 250px;
+  padding-bottom: 40px;
+  line-height: 30px;
+  color: white;
+}
+.giris {
+  padding-top: 20px;
+  position: relative;
+}
+.giris input{
+background-color: black;
+  height: 40px;
+  width: 220px;
+  border: 1px solid rgb(185, 178, 178);
+}
+.giris button{
+  background-color: rgb(67, 62, 62);
+  position: absolute;
+  left: 135px;
+  width: 80px;
+  margin-top: 5px;
+  height:30px ;
+  border: none;
+}
+.giris button a{
+  color: rgb(230, 214, 214);
+}
+.giris button :hover{
+  background-color: rgb(39, 37, 37);
+  transition: 1s;
+}
+
+.good{
+  position: relative;
+  height: 500px;
+}
+.pp ul {
+  display: flex;
+  gap: 100px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 110px 60px;
+}
+.pp ul li a{
+  color: white;
+}
+.pp ul li a:hover{
+  color:red;
+}
+.bad ul{
+  display: block;
+  top: 50px;
+  right: 420px;
+  padding-left: 5px ;
+  padding-right: 55px;
+}
+.bad ul li{
+  line-height: 30px;
+}
+.hell ul{
+  display: block;
+  top: 50px;
+  right: 220px;
+  padding-left: 5px ;
+  padding-right: 55px;
+}
+.hell ul li{
+  line-height: 30px;
+}
+.devil ul{
+  display: block;
+  top: 50px;
+  padding-left: 5px ;
+  padding-right: 55px;
+}
